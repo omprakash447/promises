@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    transition: .5s ease;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#area {
+    padding: 10px;
+    background-color: #222;
+    width: 50%;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:700px) {
+    h1 {
+        font-size: 30px;
+    }
+    #area {
+        width: 100%;
+    }
+    .container {
+        width: 70vw;
+        height: 100%;
+    }
+    .container .pizza {
+        height: 30px;
+        width: 70px;
+        font-size: 13px;
+        padding: 10px;
+        padding-top: 25px;
+    }
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.pizza {
+    height: 50px;
+    width: 100px;
+    background-color: #222;
+    margin: 5px;
+    color: wheat;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pizza:hover {
+    background-color: wheat;
+    color: #222;
+}
